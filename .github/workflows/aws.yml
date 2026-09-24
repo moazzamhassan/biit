@@ -8,7 +8,7 @@ env:
   AWS_REGION: ap-south-1                  # set this to your preferred AWS region, e.g. us-west-1
   ECR_REPOSITORY: nodeapp           # set this to your Amazon ECR repository name
   ECS_SERVICE: new1-taskdefinition-service                # set this to your Amazon ECS service name
-  ECS_CLUSTER: new1-taskdefinition                # set this to your Amazon ECS cluster name
+  ECS_CLUSTER: new1                # set this to your Amazon ECS cluster name
   ECS_TASK_DEFINITION: ecs-task.json # set this to the path to your Amazon ECS task definition
                                                # file, e.g. .aws/task-definition.json
   CONTAINER_NAME: new1-container          # set this to the name of the container in the
