@@ -4,8 +4,8 @@
   "executionRoleArn": "arn:aws:iam::559050236729:role/ecsTaskExecutionRole",
   "containerDefinitions": [
     {
-      "name": "node-web-app",
-      "image": "559050236729.dkr.ecr.us-east-1.amazonaws.com/dev/nodeimages:latest",
+      "name": "nodeapp",
+      "image": "826496717824.dkr.ecr.ap-south-1.amazonaws.com/nodeapp:latest",
       "essential": true,
       "portMappings": [
         {
