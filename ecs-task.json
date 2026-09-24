@@ -1,7 +1,7 @@
 {
-  "family": "node-app-tasks",
+  "family": "default-nodeapp-12a6",
   "networkMode": "awsvpc",
-  "executionRoleArn": "arn:aws:iam::559050236729:role/ecsTaskExecutionRole",
+  "executionRoleArn": "arn:aws:iam::826496717824:role/ecsTaskExecutionRole",
   "containerDefinitions": [
     {
       "name": "nodeapp",
