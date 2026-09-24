@@ -1,10 +1,10 @@
 {
-  "family": "default-nodeapp-12a6",
+  "family": "new1-taskdefinition",
   "networkMode": "awsvpc",
   "executionRoleArn": "arn:aws:iam::826496717824:role/ecsTaskExecutionRole",
   "containerDefinitions": [
     {
-      "name": "Main",
+      "name": "new1-container",
       "image": "826496717824.dkr.ecr.ap-south-1.amazonaws.com/nodeapp:latest",
       "essential": true,
       "portMappings": [
